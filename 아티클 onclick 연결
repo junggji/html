@@ -1,0 +1,50 @@
+<body>
+    <header>
+        아뜨랑스 쇼핑몰
+        <small>대한민국에서 제일 싼 집</small>
+    </header>
+    <nav>
+        <div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div onclick="
+                     menu1.style.display='block';
+                     menu2.style.display='none';
+                     menu3.style.display='none';
+                     menu4.style.display='none';
+                    ">
+            BEST
+        </div>
+        <div onclick="
+                     menu2.style.display='block';
+                     menu1.style.display='none';
+                     menu3.style.display='none';
+                     menu4.style.display='none';
+                    ">
+            NEW
+        </div>
+        <div onclick="
+                     menu3.style.display='block';
+                     menu1.style.display='none';
+                     menu2.style.display='none';
+                     menu4.style.display='none';
+                    ">
+            신상품
+        </div>
+        <div onclick="
+                     menu3.style.display='none';
+                     menu1.style.display='none';
+                     menu2.style.display='none';
+                     menu4.style.display='block';
+                    ">
+            아우터
+        </div>
+        <div>원피스</div>
+        <div>니트</div>
+        <div>티셔츠</div>
+        <div>블라우스</div>
+        <div>스커트</div>
+    </nav>
+    <section class="sec1">
+        <article class="at1  at" id="menu1">
+            <div class="wlong">
