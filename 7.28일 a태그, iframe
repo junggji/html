@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내비게이션 제작</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <ul class="menu">
+        <li>
+            <a href="">
+                <img src="img/logo.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="brand.html" target="ch">
+                BRAND
+            </a>
+        </li>
+        <li>
+            <a href="esg.html" target="ch">
+                ESG
+            </a>
+        </li>
+        <li>
+            <a href="store.html" target="ch">
+                STORE
+            </a>
+        </li>
+        <li><a href="event.html" target="ch">EVENT</a></li>
+        <li>
+            <a href="franchise.html" target="ch">
+                FRANCHISE
+            </a>
+        </li>
+        <li><a href="partnership.html" target="ch">PARTNERSHIP</a></li>
+    </ul>
+    <div class="main">
+        <iframe name="ch" src="" frameborder="0"></iframe>
+    </div>
+</body>
+
+</html>
